@@ -1,0 +1,13 @@
+.cta-button {
+    color: rgb(220, 0, 78);
+    border: 1px solid rgba(220, 0, 78, 0.5);
+    padding: 10px 48px;
+    font-size: 16px;
+    min-width: 64px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    cursor: pointer;
+}

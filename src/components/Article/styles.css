@@ -1,0 +1,10 @@
+.article {
+    line-height: 2em;
+    padding: 48px 0;
+}
+
+@media (max-width: 767px) {
+    .article {
+        padding: 12px 0;
+    }
+}

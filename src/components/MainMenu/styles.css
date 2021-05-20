@@ -1,0 +1,50 @@
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu__item {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.main-menu__item-button {
+    background: transparent;
+    border: 0;
+    font: inherit;
+    padding: 8px 24px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    position: relative;
+    color: #555;
+}
+
+.main-menu__item-button:hover {
+    color: #000;
+}
+
+.main-menu__item-button::before,
+.main-menu__item-button::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    width: 0px;
+    height: 1px;
+    margin: 5px 0 0;
+    transition: all 0.1s ease-in-out;
+    transition-duration: 0.75s;
+    opacity: 0;
+    background-color: #333;
+}
+.main-menu__item-button::before {
+    left: 50%;
+}
+.main-menu__item-button::after {
+    right: 50%;
+}
+.main-menu__item-button:hover::before,
+.main-menu__item-button:hover::after {
+    width: 50%;
+    opacity: 1;
+}
